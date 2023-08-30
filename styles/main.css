@@ -85,9 +85,11 @@ nav ul li {
 }
 
 /* Tea of the Month */
+
 .captioned-image {
     display: inline-flex;
     flex-flow: column nowrap;
+    margin-right: 1em;
 }
 
 .captioned-image img {
@@ -97,5 +99,10 @@ nav ul li {
 
 .spacer-10px {
     height: 10px;
+    width: 100%;
+}
+
+.spacer-20px {
+    height: 20px;
     width: 100%;
 }

@@ -138,3 +138,13 @@ nav ul li {
     height: 2rem;
     width: 100%;
 }
+
+#contact {
+    height: 200px;
+    margin-bottom: 4em;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}

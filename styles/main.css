@@ -1,3 +1,4 @@
+/* Global Rules */
 * {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
@@ -8,4 +9,37 @@
     text-align: center;
 }
 
+a:hover {
+    color: seagreen;
+    cursor: pointer;
+}
 
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+#branding-logo {
+    max-height: 50px;
+    margin: 10px;
+}
+
+.spacer {
+    width: 50%;
+    flex-grow: 2;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
